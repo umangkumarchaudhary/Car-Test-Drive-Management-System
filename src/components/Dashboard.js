@@ -1,5 +1,5 @@
 // src/components/Dashboard.js
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useState} from 'react';
 import { AppContext } from '../context/AppContext';
 import Calendar from 'react-calendar'; // You can use any calendar library you prefer
 import 'react-calendar/dist/Calendar.css'; // Styles for the calendar
