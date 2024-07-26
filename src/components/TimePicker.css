@@ -1,0 +1,55 @@
+.custom-time-picker {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect */
+  .custom-time-picker:hover {
+    border-color: #007bff;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Focus effect */
+  .custom-time-picker:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+    outline: none;
+    background-color: #fff;
+  }
+  
+  /* Optional: Styling for placeholder text */
+  .custom-time-picker::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Optional: Styling for the time picker calendar popup */
+  .react-datepicker__time-container {
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-datepicker__time-picker {
+    padding: 10px;
+  }
+  
+  .react-datepicker__header {
+    background-color: #007bff;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  .react-datepicker__current-month {
+    color: #fff;
+  }
+  
